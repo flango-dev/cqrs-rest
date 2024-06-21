@@ -1,0 +1,15 @@
+// https://code.visualstudio.com/docs/editor/variables-reference
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Project (local machine)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceRoot}/manage.py",
+      "args": [
+        "runserver",
+      ],
+    },
+  ]
+}

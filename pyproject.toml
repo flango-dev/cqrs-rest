@@ -8,3 +8,6 @@ dependencies = [
   "granian[reload]==1.3.1",
   "django-ninja==1.1.0",
 ]
+optional-dependencies.dev = [
+  "daphne==4.1.2",
+]

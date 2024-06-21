@@ -14,4 +14,4 @@ project-setup: venv-setup database-setup-local
 
 # run project using granian wsgi server
 project-run:
-  granian --interface wsgi --reload demo.wsgi:application
+  granian --interface asgi --reload demo.asgi:application
