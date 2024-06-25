@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ]
 BOUNDED_CONTEXTS = [
     "bca",
-    # "bcb",
+    "bcb",
 ]
 INSTALLED_APPS += BOUNDED_CONTEXTS
 
