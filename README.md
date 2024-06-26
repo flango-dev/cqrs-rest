@@ -1,23 +1,15 @@
 # cqrs-rest
 
-An example how to create a RESTful API suitable for CQRS.
+An example how to implement a RESTful API for backend/frontend integration suitable for a bounded context (Django app) making use of the CQRS pattern using [`django-ninja`](https://github.com/vitalik/django-ninja).
 
-# Run the demo
+## Run the demo
 
 - `just project-setup`
+
+## Usage
+
 - `just project-run`
-
-admin user: `admin`
-admin pwd: `pwd`
-
-RESTful API v1 of both bounded contexts (A and B): `http://127.0.0.1:8000/api/v1/docs`
-RESTful API v2 of bounded contexts (A and B): `http://127.0.0.1:8000/api/v2/docs`
-
-## Notes
-
-Bounded context A defines commands and queries in the endpoint URI.
-Bounded context B defines commands and queries in the body of the request.
-Never run APis in production without [authentication](https://django-ninja.dev/guides/authentication/).
+- OpenAPI documentation: `http://127.0.0.1:8000/api/docs`
 
 ## References and inspiration
 
